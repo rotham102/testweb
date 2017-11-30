@@ -34,7 +34,7 @@ img{
 	height:100%;
 	-o-transition:.5s;
   	-ms-transition:.5s;
-  	-moz-transition:.5s;
+  	-moz-transition:.5s; 
   	-webkit-transition:.5s;	
 }
 .col-md-6{
@@ -63,5 +63,14 @@ img{
 }
 
 li{
-list-style-type: none;
+	list-style-type: none;
+	float: left;
+}
+
+li svg{
+	height: 3rem;
+}
+
+.nopad {
+	padding: 0 !important;
 }

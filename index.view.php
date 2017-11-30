@@ -25,10 +25,10 @@
 		<!--desktop-->
 		<div class="row">
 			<?php for($i = 0; $i < 8; $i++): ?>
-				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 nopad">
 					<img width="100%" height="100%" src="images/helios-front.jpg">
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 nopad">
 					<img width="100%" height="100%" src="images/cookbook.jpg">
 				</div>
 			<?php endfor; ?>
