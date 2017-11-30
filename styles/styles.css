@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url("https://use.typekit.net/rpu5kiz.css");
+
+/* CSS Document */
+
+.col-lg-12 h1{
+	text-align:center;
+	font-family: "ff-meta-web-pro",sans-serif;
+	font-style: normal;
+	font-weight:600;
+	margin: 0; 
+	padding:0;
+}
+img{
+	object-fit: cover;
+}
+.col-lg-3{
+	width:100%;
+	height:100%;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;	
+}
+
+.col-lg-3:hover {
+	background-color:antiquewhite;
+}
+
+.col-md-4{
+	
+	width:100%;
+	height:100%;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;	
+}
+.col-md-6{
+	
+	width:100%;
+	height:100%;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;	
+}
+.st0{
+	fill:white;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+}
+.st0:hover{
+	fill:#e5e5e5;
+}
+.nav{
+	margin-top:5px;
+	height:30px;
+	width:30px;
+}
+
+li{
+list-style-type: none;
+}
