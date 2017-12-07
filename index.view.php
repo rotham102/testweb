@@ -4,35 +4,102 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://use.typekit.net/rpu5kiz.css">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<!--bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--#-->
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<script src="scripts.js"></script>
 	<title>Amanda M. Roth</title>
 </head>
 
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-				<ul>
-				<li class="nav"><?= file_get_contents("images/nav-menu.svg"); ?></li>
-				<li class="title"><h1><?= $greeting; ?></h1></li>
-				</ul>
+<!--header-->
+	<div class="wrapper">
+		<div class="header">
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#">Home</a>
+			  <a href="#">About Me</a>
+			  <a href="#">Contact</a>
 			</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/></span>
+			<h1><?= $greeting; ?></h1>
 		</div>
 		
-		<!--desktop-->
-		<div class="row">
-			<?php for($i = 0; $i < 8; $i++): ?>
-				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 nopad">
-					<img width="100%" height="100%" src="images/helios-front.jpg">
+<!--work-->
+		<div class="content">
+			<a href="#">
+			  <img src="images/ecoh-cards.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Emmanuel City of Hope Branding</div>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 nopad">
-					<img width="100%" height="100%" src="images/cookbook.jpg">
-				</div>
-			<?php endfor; ?>
+			</a>
 		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/raymondkinsman-cover.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Raymond Morton Kinsman</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/art370-cards.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Personal Projects</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/cookbook.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Cookbook Layout Design</div>
+				</div>
+			</a>
+		</div>
+		
+		<div class="content">
+			<a href="#">
+			  <img src="images/helios-front.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Branding Design Project</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/reslife-voice-volumes-poster.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Voice Speaks Volumes Campaign</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/reslife-academic-pamphlet-cover.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Academic Resources Pamphlet</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/tattoo-cards-front.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Tattoo ABC Cards</div>
+				</div>
+			</a>
+		</div>
+		<div class="content">
+			<a href="#">
+			  <img src="images/play-it-as-it-lays.jpg" class="image">
+				<div class="overlay">
+					<div class="text">Graduate Thesis Book Design</div>
+				</div>
+			</a>
+		</div>
+		
+			
 	</div>
 </body>
 </html>

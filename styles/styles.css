@@ -3,74 +3,147 @@
 @import url("https://use.typekit.net/rpu5kiz.css");
 
 /* CSS Document */
+body{
+	margin:0;
+}
+.wrapper{
+	display:grid;
+	grid-template-columns:repeat(12, 1fr);
+	grid-auto-rows: 100%;
+}
+.nav-button{
+	margin:15px;
+	width:50px;
+	float:left;
+	background-color:rgba(255,255,255,.6);
+}
+.nav-button:hover{
+	background-color:rgba(0,200,250, .8);
+}
+.nav-button:active{
+	background-color:red;
+	
+}
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #111;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		}
 
-.col-lg-12 h1{
+		.sidenav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
+
+.header{
+	grid-column: span 12;
+	text-align: center !important;
+	
+}
+.header h1{
 	text-align:center;
-	font-family: "ff-meta-web-pro",sans-serif;
+	font-family: 'Homemade Apple', cursive;
 	font-style: normal;
 	font-weight:600;
-	margin: 0; 
-	padding:0;
+	margin-top:100px;
+	margin-bottom:100px;
+	color:#495456;
 }
-img{
-	object-fit: cover;
+.title{
+	text-align: center;
 }
-.col-lg-3{
+.content{
+	grid-column: span 3;
 	width:100%;
-	height:100%;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;	
-}
-
-.col-lg-3:hover {
-	background-color:antiquewhite;
-}
-
-.col-md-4{
-	
-	width:100%;
-	height:100%;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s; 
-  	-webkit-transition:.5s;	
-}
-.col-md-6{
-	
-	width:100%;
-	height:100%;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;	
-}
-.st0{
-	fill:white;
-	-o-transition:.5s;
-  	-ms-transition:.5s;
-  	-moz-transition:.5s;
-  	-webkit-transition:.5s;
-}
-.st0:hover{
-	fill:#e5e5e5;
-}
-.nav{
-	margin-top:5px;
-	height:30px;
-	width:30px;
-}
-
-li{
-	list-style-type: none;
-	float: left;
-}
-
-li svg{
-	height: 3rem;
-}
-
-.nopad {
+	height:100%;	
+	position:relative;
 	padding: 0 !important;
+}
+@media screen and (min-width: 2400px){
+	.content{
+		grid-column: span 2;
+	}
+}
+@media screen and (max-width: 2000px){
+	.content{
+		grid-column: span 3;
+	}
+}
+@media screen and (max-width: 1100px){
+	.content{
+		grid-column: span 4;
+	}
+}
+@media screen and (max-width: 750px){
+	.content{
+		grid-column: span 6;
+	}
+}
+@media screen and (max-width: 450px){
+	.content{
+		grid-column: span 12;
+	}
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:rgba(0,200,250,.8);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .3s ease;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.content:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
