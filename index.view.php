@@ -13,18 +13,24 @@
 </head>
 
 <body>
-<!--header-->
+<!--nav-->
 	<div class="wrapper">
-		<div class="header">
-			<div id="mySidenav" class="sidenav">
-			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			  <a href="#">Home</a>
-			  <a href="#">About Me</a>
-			  <a href="#">Contact</a>
-			</div>
-		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span>
-		<h1><img src="images/icon.png"/><br/><br/><?= $greeting; ?></h1>
+	<div class="nav">
+	  <div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">Home</a>
+		  <a href="#">About Me</a>
+		  <a href="#">Contact</a>
 		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span><br>
+	</div>
+<!--header-->
+	<div class="header">
+		<div class="site-badge">
+			<img src="images/icon.png"/>
+		</div>
+		<h1><?= $greeting; ?></h1>
+	</div>
 		
 <!--work-->
 		<div class="content">

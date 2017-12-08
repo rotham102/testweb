@@ -11,6 +11,10 @@ body{
 	grid-template-columns:repeat(12, 1fr);
 	grid-auto-rows: 100%;
 }
+.nav{
+	grid-column: span 12;
+	text-align: center !important;
+}
 .nav-button{
 	margin-left:15px;
 	margin-top:15px;
@@ -50,14 +54,14 @@ body{
 			padding: 8px 25px 8px 32px;
 			text-decoration: none;
 			font-size: 25px;
-			color: #222222;
+			color: white;
 			display: block;
 			transition: 0.3s;
 			white-space: nowrap;			
 		}
 
 		.sidenav a:hover {
-			color: #f1f1f1;
+			color: red;
 		}
 
 		.sidenav .closebtn {
@@ -69,28 +73,32 @@ body{
 		}
 
 		@media screen and (max-height: 450px) {
-		  .sidenav {padding-top: 15px;}
+		  .sidenav {padding-top: 40px;}
 		  .sidenav a {font-size: 18px;}
 		}
-
+										
 .header{
 	grid-column: span 12;
 	text-align: center !important;
+}
+.site-badge {
+    display: block;
+    margin: 0 auto;
+}
+.site-badge img:hover{
 	
 }
+
 .header h1{
 	text-align:center;
 	font-size:1em;
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-	font-weight:600;
-	margin-top:70px;
+	font-weight:100;
 	margin-bottom:70px;
 	color:#222222;
 }
-.title{
-	text-align: center;
-}
+
 .content{
 	grid-column: span 3;
 	width:100%;
@@ -148,13 +156,14 @@ body{
 }
 
 .text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 15px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+	font-size:17px;
+	text-align: center;
+	white-space:nowrap;
+	color: white;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
