@@ -5,47 +5,48 @@ $greeting = 'AMANDA M. ROTH';
 $arr = [
     [
         'img' => 'images/ecoh-cards.jpg',
-        'disc' => 'Emmanuel City of Hope Branding'
+        'desc' => 'Emmanuel City of Hope Branding',
+        'link' => 'ecoh.php'
     ],
     [
         'img' => 'images/raymondkinsman-cover.jpg',
-        'disc' => 'Raymond Morton Kinsman'
+        'desc' => 'Raymond Morton Kinsman'
     ],
     [
         'img' => 'images/art370-cards.jpg',
-        'disc' => 'Personal Projects'
+        'desc' => 'Personal Projects'
     ],
     [
         'img' => 'images/play-it-as-it-lays.jpg',
-        'disc' => 'Graduate Thesis Book Design'
+        'desc' => 'Graduate Thesis Book Design'
     ],
     [
         'img' => 'images/nightwarden-logo.jpg',
-        'disc' => 'Textron Systems Nightwarden'
+        'desc' => 'Textron Systems Nightwarden'
     ],
     [
         'img' => 'images/helios-front.jpg',
-        'disc' => 'Branding Design Project'
+        'desc' => 'Branding Design Project'
     ],
     [
         'img' => 'images/reslife-voice-volumes-poster.jpg',
-        'disc' => 'Voice Speaks Volumes Campaign'
+        'desc' => 'Voice Speaks Volumes Campaign'
     ],
     [
         'img' => 'images/tattoo-cards-front.jpg',
-        'disc' => 'Tattoo ABC Cards'
+        'desc' => 'Tattoo ABC Cards'
     ],
     [
         'img' => 'images/cookbook.jpg',
-        'disc' => 'Cookbook Design'
+        'desc' => 'Cookbook Design'
     ],
     [
         'img' => 'images/reslife-academic-pamphlet-cover.jpg',
-        'disc' => 'Academic Resources Pamphlet'
+        'desc' => 'Academic Resources Pamphlet'
     ],
     [
         'img' => 'images/campus-conquest-card.jpg',
-        'disc' => 'Campus Conquest'
+        'desc' => 'Campus Conquest'
     ]
 
     ];

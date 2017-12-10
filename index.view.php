@@ -35,10 +35,10 @@
 <!--work-->
 		<?php foreach($arr as $item): ?>
 		<div class="content">
-			<a href="#">
+			<a href="<?= $item['link']; ?>">
 			  <img src="<?= $item['img']; ?>" class="image">
 				<div class="overlay">
-					<div class="text"><?= $item['disc']; ?></div>
+					<div class="text"><?= $item['desc']; ?></div>
 				</div>
 			</a>
 		</div>
