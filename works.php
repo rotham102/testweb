@@ -13,31 +13,19 @@
 </head>
 <body>
     <div class="wrapper">
-<!--NAV-->
-    <div class="nav">
-	  <div id="mySidenav" class="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  <a href="index.php">Home</a>
-		  <a href="#">About Me</a>
-		  <a href="#">Contact</a>
-		</div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span>
-        <a href="index.php"><img class="work-icon" src="images/icon.png"></a>
-    </div>
-<!--END NAV-->
+    <?php foreach($works as $piece): ?>
         <div class="work-desc">
-            <h1>Emmanuel City of Hope</h1>
+            <h1><?= $piece['name']; ?></h1>
             <p><?php
                 $lipsum = file_get_contents('http://loripsum.net/api/3/short');
                 echo "$lipsum";
             ?></p>
-            <button>NEXT PROJECT</button>
         </div>
         <div class="work-imgs">
-                <img src = "images/ecoh-cards.jpg">
-                <img src = "images/ecoh-logo-white.jpg">
-                <img src = "images/ecoh-logo-blue.jpg">
+                <img src = "<?= $piece['piece']; ?>">
+                <img src = "<?= $piece['piece']; ?>">
+                <img src = "<?= $piece['piece']; ?>">
         </div>
-        
+    <?php endforeach; ?>
     </div>
 </body>
