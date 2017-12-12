@@ -33,12 +33,11 @@
             <hr/>
             <button>NEXT PROJECT</button>
         </div>
-        <div class="work-imgs">
-                <div class="nav-afterspace-imgs"></div>
-                        <img src="images/ecoh-cards.jpg">
-                        <img src="images/ecoh-logo-white.jpg">
-                        <img src="images/ecoh-logo-blue.jpg">   
-        </div>
-<div class="large-screen-border"></div>        
+  <!--Work Images-->
+		<div class="work-imgs">
+			<img src="images/ecoh-cards.jpg">	
+			<img src="images/ecoh-logo-white.jpg">
+			<img src="images/ecoh-logo-blue.jpg">  
+	  	</div>     
   </div>
 </body>

@@ -51,15 +51,14 @@ $arr = [
 
     ];
 /* WORKS PAGES */
-/*$works = [
+$ecoh = [
     [
-        'name' => 'Emmanuel City of Hope',
         'piece' => 'images/ecoh-cards.jpg',
         'piece' => 'images/ecoh-logo-white.jpg',
         'piece' => 'images/ecoh-logo-blue.jpg'
     ]
-];*/
+];
+
 
 
 require_once ('index.view.php');
-/*require_once ('works.php');*/
