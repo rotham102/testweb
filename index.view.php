@@ -24,6 +24,7 @@
 		</div>
 		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span><br>
 	</div>
+	<div class="nav-afterspace"></div>
 <!--header-->
 	<div class="header">
 		<div class="site-badge">
