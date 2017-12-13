@@ -25,23 +25,24 @@
         <a href="index.php"><img class="work-icon" src="images/works-icon.png"></a>
     </div>
 <!--END NAV-->
-    <div class="works-back"><a href="#">&#9664</a></div>
-    <div class="works-next"><a href="ray-kinsman.php">&#9654</a></div>
+    <div class="works-back"><a href="ecoh.php">&#9664</a></div>
+    <div class="works-next"><a href="screenprint.php">&#9654</a></div>
 <div class="pads"></div>
     <div class="work-content">
           <div class="nav-afterspace"></div>
-            <h1>Emmanuel City of Hope</h1>
-            <p> This was a <strong>branding</strong> and <strong>web design</strong> project for a newly established ministry in my community. The clients envisioned a modern logo design with subtle religious imagery, and requested that it feature deep pinks and blues. Their website is currently under construction.</p>
+            <h1>Reminiscences of Raymond Morton Kinsman</h1>
+            <p> This was an <strong>editorial design</strong> project for my family. My grandmother found and transcribed the typewritten journals of my great-great grandfather, Raymond Kinsman. This is a comprehensive record of his life, from his childhood on a ranch in Nebraska to his married life on the east coast. The image on the front cover is an actual photo from his records at his ranch out west.</p>
   <!--Work Images-->
-			<img src="images/ecoh-cards.jpg">	
-			<img src="images/ecoh-logo-white.jpg">
-            <img src="images/ecoh-logo-blue.jpg">  
+            <img src="images/raymondkinsman-cover.jpg">
+			<img src="images/raymond-kinsman-contents.jpg">	
+            <img src="images/raymond-kinsman-chapter.jpg">
+            <img src="images/raymond-kinsman-picture.jpg">  
             <div class="works-mobile-margin"></div>     
     </div>
             <div class="pads"></div>
             <div class="works-mobile-footer">
-                    <button class="prev"><a href="#">&#9664</a></button>
-                    <button class="next"><a href="ray-kinsman.php">&#9654</a></button>
+            <button class="prev"><a href="ecoh.php">&#9664</a></button>
+            <button class="next"><a href="screenprint.php">&#9654</a></button>
             </div>
 </div>
 </body>

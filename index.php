@@ -10,11 +10,13 @@ $arr = [
     ],
     [
         'img' => 'images/raymondkinsman-cover.jpg',
-        'desc' => 'Raymond Morton Kinsman'
+        'desc' => 'Raymond Morton Kinsman',
+        'link' => 'ray-kinsman.php'
     ],
     [
         'img' => 'images/art370-cards.jpg',
-        'desc' => 'Personal Projects'
+        'desc' => 'Personal Projects',
+        'link' => 'screenprint.php'
     ],
     [
         'img' => 'images/play-it-as-it-lays.jpg',

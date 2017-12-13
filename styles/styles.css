@@ -28,7 +28,7 @@ body{
 }
 .nav-button{
 	margin-left:15px;
-	margin-top:15px;
+	margin-top:10px;
 	margin-bottom:5px;
 	width:50px;
 	float:left;
@@ -40,7 +40,7 @@ body{
 	background-color:red;
 }
 .menu{
-	margin-top:30px;
+	margin-top:25px;
 	float:left;
 	font-size:18px;
 	font-family: 'Montserrat', sans-serif;
@@ -182,98 +182,153 @@ body{
 	-ms-transform: translate(-50%, -50%);
 }
 
-/* WORK PAGES*/
+/*-------------------------------- WORK PAGES-------------------------------*/
 
-.work-imgs{
-	grid-column: span 8;
+.pads{
+	grid-column:span 3;
 }
-.work-imgs img{
+.works-back{
+position:fixed;
+top:50%;
+left:0;
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+font-size: 1.5em;
+color:white;
+background-color: rgba(194, 194, 194, 0.8);
+padding:40px 0px 40px 0px;
+}
+.works-next{
+position:fixed;
+top:50%;
+right:0;
+font-family: 'Montserrat', sans-serif;
+font-weight:400;
+font-size: 1.5em;
+color:white;
+background-color: rgba(194, 194, 194, 0.8);
+padding:43px 0px 43px 0px;
+}
+.works-next a{
+	padding:43px 15px 40px 15px;
+}
+.works-back a{
+	padding:43px 15px 40px 15px;
+}
+.works-back a, .works-next a, .works-back a:active, .works-next a:active{
+text-decoration: none;
+color:white;
+}
+.works-back:hover, .works-next:hover, .works-back a:hover, .works-next a:hover{
+	background-color:rgb(255,0,0);
+}
+		.works-mobile-footer{
+			background-color:rgba(131, 131, 131, 0.8);
+			position:fixed;
+			bottom:0;
+			width:100%;
+		}
+		.works-mobile-footer button{
+			background:none;
+			border:none;
+			color:white;
+			padding-top:5px;
+			padding-bottom:5px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight:400;
+			font-size:1.5em;
+		}
+		.works-mobile-footer button a, .works-mobile-footer button a, .works-mobile-footer button a:active, .works-mobile-footer button a:active{
+			text-decoration: none;
+			color:white;
+			}
+		.prev{
+			float:left;
+			margin-left:25%;
+		}
+		.next{
+			float:right;
+			margin-right:25%;
+		}
+.work-content{
+	grid-column: span 6;
+	font-family: 'Montserrat', sans-serif;
+}
+.work-content img{
 	display: block;
 	width: 100%;
 	height: auto;
 }
-.work-desc{
-	grid-column-start: span 4;
-	padding: 0px 30px 30px 30px;
-	font-family: 'Montserrat', sans-serif;	
-}
-.work-desc p{
+.work-content p{
 	font-size:14px;
 	line-height: 25px;
 	font-weight:300;
+	padding-bottom:20px;
 }
-.work-desc p strong{
+.work-content p strong{
 	color:red;
 }
-.work-desc h1{
+.work-content h1{
 	padding-top:20px;
-	font-size:20px;
+	font-size:25px;
 	line-height: 1em;
 	font-weight:600;
 	text-transform: uppercase;
 	color:rgb(34, 34, 34);
 }
-.work-desc button{
-	background-color:rgb(0,200,250);
-	border:.5px solid white;
-	padding:10px;
-	color:white;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:bold;
-	font-size:1em;
-	margin-top:20px;
-}
-.work-desc hr{
+
+.work-content hr{
 	border: .5px solid rgb(0,200,250);
 }
-.work-desc button:hover{
-	background-color:red;
-	border:none;
-}
+
 .work-icon{
 	width:50px;
 	float:right;
-	padding: 10px 30px 0px 0px;
+	margin: 10px 30px 0px 0px;
 }
-@media screen and (min-width: 1200px){
-	.work-imgs{
-		grid-column: span 4;
-		margin-top: 15%;
+@media screen and (min-width: 1100px){
+	.pads{
+		grid-column:span 3;
 	}
-	.work-desc{
-		position:sticky;
-		top:0px;
-		height:90vh;
-		grid-column:span 4;
+	.work-content{
+		grid-column: span 6;
 	}
-
 }
-@media screen and (max-width: 1200px){
-	.work-imgs{
-		grid-column:span 7;
-		margin-top: 15%;
+@media screen and (max-width: 1100px){
+	.pads{
+		grid-column:span 2;
 	}
-	.work-desc{
-		position:sticky;
-		top:0px;
-		height:90vh;
-		grid-column:span 5
+	.work-content{
+		grid-column: span 8;
 	}
-
 }
-
-@media screen and (max-width: 600px){
-	.work-imgs{
-		grid-column:span 12;
-		margin-top:0;
-	}
-	.nav-afterspace-imgs{display:none}
-	.work-desc{
-		grid-column:span 12;
-		position:relative;
-		height:100%;
-	}
-	.large-screen-border{
+@media screen and (min-width: 550px){
+	.works-mobile-margin{
 		display:none;
+	}
+	.works-mobile-footer{
+		display:none;
+	}
+}
+@media screen and (max-width: 550px){
+	.pads{
+		display:none;
+	}
+	.work-content{
+		grid-column: span 12;
+	}
+	.work-content h1 {
+		padding:7px 30px 0 30px;
+		font-size:20px;
+	}
+	.work-content p{
+		padding:0px 30px 10px 30px;
+	}
+	.works-back, .works-next{
+		display: none;
+	}
+	.works-mobile-margin{
+		height:42px;
+		background-color:rgb(194, 194, 194);
 	}
 }
