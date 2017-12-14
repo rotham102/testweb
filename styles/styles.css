@@ -183,6 +183,22 @@ body{
 }
 
 /*-------------------------------- WORK PAGES-------------------------------*/
+.modal{
+	display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.modal.open{
+	display: grid;
+	grid-template-rows: 100px auto 100px;
+}
+
+
+
+
 
 .pads{
 	grid-column:span 3;
@@ -253,6 +269,7 @@ color:white;
 .work-content{
 	grid-column: span 6;
 	font-family: 'Montserrat', sans-serif;
+	overflow-y: auto;
 }
 .work-content img{
 	display: block;

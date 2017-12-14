@@ -45,5 +45,27 @@
 		</div>
 		<?php endforeach; ?>
 </div>
+<!--modal
+<div class="modal">
+		<div class="modal__box">
+				<div class="works-back"><a href="#">&#9664</a></div>
+				<div class="works-next"><a href="ray-kinsman.php">&#9654</a></div>
+				<div class="work-content">
+							<div class="nav-afterspace"></div>
+								<h1>Emmanuel City of Hope</h1>
+								<p> This was a <strong>branding</strong> and <strong>web design</strong> project for a newly established ministry in my community. The clients envisioned a modern logo design with subtle religious imagery, and requested that it feature deep pinks and blues. Their website is currently under construction.</p>
+	
+					<img src="images/ecoh-cards.jpg">	
+					<img src="images/ecoh-logo-white.jpg">
+					<img src="images/ecoh-logo-blue.jpg">  
+					<div class="works-mobile-margin"></div>     
+				</div>
+							<div class="works-mobile-footer">
+												<button class="prev"><a href="#">&#9664</a></button>
+												<button class="next"><a href="ray-kinsman.php">&#9654</a></button>
+								</div>
+		</div>
+</div>-->
+
 </body>
 </html>
