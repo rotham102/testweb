@@ -65,6 +65,9 @@
 				<?php foreach($item['works'] as $work): ?>
 					<img src="<?= $work; ?>">	
 				<?php endforeach; ?>
+				<?php foreach($item['video'] as $vid): ?>
+				<div><?= $vid; ?></div>
+				<?php endforeach; ?>
 				<div class="works-mobile-margin"></div>     
 			</div>
 			<div class="works-mobile-footer">

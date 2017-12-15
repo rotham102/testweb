@@ -12,7 +12,8 @@ $arr = [
             'images/ecoh-cards.jpg',
             'images/ecoh-logo-white.jpg',
             'images/ecoh-logo-blue.jpg'
-        ]
+        ],
+		'video' => []
     ],
     [
         'name' => 'rk',
@@ -24,7 +25,8 @@ $arr = [
             'images/raymond-kinsman-contents.jpg',
             'images/raymond-kinsman-chapter.jpg',
             'images/raymond-kinsman-picture.jpg'
-        ]    
+        ],  
+		'video' => []
     ],
     [
         'name' => 'screenprint',
@@ -37,7 +39,8 @@ $arr = [
             'images/art370-2.jpg',
             'images/art370-3.jpg',
             'images/art370-4.jpg'
-        ] 
+        ], 
+		'video' => []
     ],
     [
         'name' => 'playit',
@@ -49,19 +52,48 @@ $arr = [
             'images/wes-spread.jpg',
             'images/wes-chapter.jpg',
             'images/wes-endnotes.jpg'
-        ]
+        ],
+		'video' => []
     ],
     [
+		'name' => 'nightwarden',
         'img' => 'images/nightwarden-logo.jpg',
-        'desc' => 'Textron Systems Nightwarden'
+        'desc' => 'Textron Systems Nightwarden',
+		'writeup' => 'This was a <strong>branding</strong> project for the Textron Systems - Unmanned Systems marketing department. During my internship at Textron Systems I was given the chance to work on a variety of branding and advertising projects. I designed this logo to celebrate the unveiling of their new unmanned aerial vehicle Nightwarden. I worked with the marketing and manufacturing teams to determine the black color scheme for the aircraft, and I took my inspiration for the logo design from the shapes that form when looking at the aircraft head on.',
+		'works' => [
+			'images/nightwarden-logo.jpg',
+			'images/nightwarden-aircraft.jpg'
+		],
+		'video' => []
     ],
     [
+		'name' => 'helios',
         'img' => 'images/helios-front.jpg',
-        'desc' => 'Branding Design Project'
+        'desc' => 'Helios Branding Project',
+		'writeup' => 'This was a <strong>branding</strong> and <strong>guidebook</strong> project for a class at my university. We were given several types of fictional companies to choose from, and were expected to delevop the entire brand for the company we chose. We wrote comprehensive creative briefs and outlined our production schedule for the various deliverables in the project. We then designed a full-scope brand guidebook that detailed every aspect of logo, color, and advertising usage for the company.',
+		'works' => [
+			'images/helios-front.jpg',
+			'images/helios-back.jpg',
+			'images/helios-close.jpg',
+			'images/helios-brandbook-cover.jpg',
+			'images/helios-brandbook-logo.jpg',
+			'images/helios-brandbook-logo-looks.jpg',
+			'images/helios-brandbook-colors.jpg'
+		],
+		'video' => []
     ],
     [
+		'name' => 'voice-speaks-volumes',
         'img' => 'images/reslife-voice-volumes-poster.jpg',
-        'desc' => 'Voice Speaks Volumes Campaign'
+        'desc' => 'Voice Speaks Volumes Campaign',
+		'writeup' => 'This was a <strong>print advertising</strong> and <strong>motion graphic</strong> project for the Residential Life Office at my university. I designed a poster set, table tent, and silent motion graphic video to advertise the Resident Survey being circulated to the on-campus student body. This annual survey provided the Residential Life Office with crucial data that helped inform and enact changes to the resident system on campus, but the number of students participating needed drastic improvement. The posters and table tents were placed in various locations around campus, and the video was broadcast on their iNet television systems in dining halls and public areas. After this campaign, the office saw a 10%+ rise in survey participation.',
+		'works' => [
+			'images/reslife-voice-volumes-poster.jpg',
+			'images/reslife-voice-volumes-table-tent.jpg'
+		],
+		'video' => [
+			'<iframe width="800" height="450" src="https://www.youtube.com/embed/Ug63p3tCxUM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+		]
     ],
     [
         'img' => 'images/tattoo-cards-front.jpg',
