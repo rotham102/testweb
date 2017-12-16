@@ -96,33 +96,53 @@ $arr = [
 		]
     ],
     [
+        'name' => 'tattoo',
         'img' => 'images/tattoo-cards-front.jpg',
-        'desc' => 'Tattoo ABC Cards'
+        'desc' => 'Tattoo ABC Cards',
+        'writeup' => 'This was a <strong>typography</strong> and <strong>illustration</strong> project for a class at my university. We were instructed to choose a topic we were interested in and design a set of 26 definition cards around that topic, with each card starting with one letter of the alphabet. We then needed to divide the cards into different categories using design differences. I chose to divide them based on parts of speech (noun, verb, and adjective). ',
+		'works' => [
+			'images/tattoo-cards-front.jpg',
+            'images/tattoo-cards-pair.jpg',
+            'images/tattoo-cards-close.jpg',
+            'images/tattoo-cards-all.jpg'
+		],
+		'video' => []
     ],
     [
+        'name' => 'cookbook',
         'img' => 'images/cookbook.jpg',
-        'desc' => 'Cookbook Design'
+        'desc' => 'Cookbook Design',
+        'writeup' => 'This was a <strong>layout</strong> and <strong>typography</strong> project for a class at my university. We were instructed to design a cookbook based on a national or regional cuisine of our choosing. We then needed to choose the typefaces, informational layout, size, and binding method for our cookbooks. ',
+		'works' => [
+			'images/cookbook.jpg',
+            'images/cookbook-chapter.jpg',
+            'images/cookbook-page.jpg'
+		],
+		'video' => []
     ],
     [
+        'name' => 'academic-pamphlet',
         'img' => 'images/reslife-academic-pamphlet-cover.jpg',
-        'desc' => 'Academic Resources Pamphlet'
+        'desc' => 'Academic Resources Pamphlet',
+        'writeup' => 'This was an <strong>editorial design</strong> project for the Residential Life office at my university. They needed to redesign their previous Academic Resources guide into a more accessible, condensed, and easily readable version for students. ',
+		'works' => [
+			'images/reslife-academic-pamphlet-cover.jpg',
+            'images/reslife-academic-pamphlet-pg1.jpg',
+            'images/reslife-academic-pamphlet-pg2.jpg'
+		],
+		'video' => []
     ],
     [
         'name' => 'campus',
         'img' => 'images/campus-conquest-card.jpg',
-        'desc' => 'Campus Conquest'
+        'desc' => 'Campus Conquest',
+        'writeup' => 'This was a <strong>branding</strong> project for the Residential Life office and Resident Student Association at my university. They needed a logo and print advertisement for their upcoming Campus Conquest Event, an outdoor activity day for students. I based the logo design on the university mascot, True Grit, the Chesapeake Bay retriever. The design also features the Resident Student Association logo, which I designed for them previously.',
+		'works' => [
+			'images/campus-conquest-card.jpg',
+            'images/campus-conquest-logos.jpg'
+		],
+		'video' => []
     ]
-
     ];
-/* WORKS PAGES */
-$ecoh = [
-    [
-        'piece' => 'images/ecoh-cards.jpg',
-        'piece' => 'images/ecoh-logo-white.jpg',
-        'piece' => 'images/ecoh-logo-blue.jpg'
-    ]
-];
-
-
 
 require_once ('index.view.php');

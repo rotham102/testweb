@@ -66,7 +66,7 @@
 					<img src="<?= $work; ?>">	
 				<?php endforeach; ?>
 				<?php foreach($item['video'] as $vid): ?>
-				<div><?= $vid; ?></div>
+				<div class="video"><?= $vid; ?></div>
 				<?php endforeach; ?>
 				<div class="works-mobile-margin"></div>     
 			</div>
