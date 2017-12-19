@@ -146,3 +146,4 @@ $arr = [
     ];
 
 require_once ('index.view.php');
+

@@ -18,7 +18,7 @@
 	  <div id="mySidenav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <a href="index.php">Home</a>
-		  <a href="#">About Me</a>
+		  <a href="about.php">About</a>
 		  <a href="#">Contact</a>
 		</div>
 		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span><br>
