@@ -365,50 +365,86 @@ color:white;
 	}
 }
 /*----------------------------------ABOUT-----------------------------------*/
-.about-p{
-	font-size:15px;
+
+.about-content{
 	grid-column:span 12;
-	line-height: 25px;
-	font-weight:400;
-	padding-left:5%;
-	padding-right:5%;
-	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding: 3% 7% 3% 7%;
+	position:relative;
+	background-color:rgb(0,200,250);
+	color:white;
 }
-.about-blue{
+.about-red{
 	color:red;
 	font-weight:600;
 }
-.about-content{
-	font-size:15px;
-	grid-column: span 6;
-	width:100%;
-	height:100%;
-	position:relative;
-	padding: 0 !important;
+.about-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
 	line-height: 25px;
-	font-weight:400;
-	padding-bottom:20px;
+	font-size:15px;
+}
+
+.experience-info{
+	grid-column:span 4;
+	font-size:15px;
+	position:relative;
+	padding: 0 20px 0 10%;
+	line-height: 25px;
+	font-weight:300;
 	font-family: 'Montserrat', sans-serif;
 }
+.experience-companies{
+	grid-column:span 8;
+	font-size:15px;
+	position:relative;
+	padding: 0 10% 0 20px;
+	line-height: 25px;
+	font-weight:300;
+	font-family: 'Montserrat', sans-serif;
+}
+
 .about-blue-box{
-	background-color:rgb(0, 200, 250);
-	color:white;
+	color:red;
 	font-weight:600;
-	padding:.5% 80% .5% .5%;
+	padding:0px;
 }
 .resume1{
-	padding-left:10%; 
-	padding-right:3%;
-}
-.resume1-list{
-	padding-left:10%; 
-	padding-right:3%;
-	padding-bottom:15px;
+	grid-column: span 6;
+	padding-top:0;
+	padding-bottom:0;
 }
 .resume1 img{
 	max-width:50px;
 }
-.resume2{
-	padding-left:3%; 
-	padding-right:10%;
+
+.blue-italic{
+	font-style:oblique;
+	color:rgb(0,200,250);
+}
+.date-grey{
+	font-size:13px;
+	color:#929292;
+}
+.work-experience{
+	margin-top:15px;
+}
+.work-experience p{
+	margin:0 auto;
+}
+.jobdesc{
+	font-size:14px;
+}
+@media screen and (max-width: 650px){
+	.about-content{
+		padding: 0 30px 0 30px;
+	}
+	.experience-info{
+		grid-column: span 12;
+		padding: 0 30px 0 30px;
+	}
+	.experience-companies{
+		grid-column: span 12;
+		padding: 0 30px 0 30px;
+	}
 }
