@@ -30,17 +30,20 @@
 			<img src="images/profile.png"/>
 		</div>
    		<h1><strong>NICE TO MEET YOU.</strong></h1>
-    </div><!--header-->
-        
+	</div><!--header-->
+		<p class="about-p">Hello, my name is <span class="about-blue">Amanda.</span> I'm a graphic designer and a serial enthusiast. Outside of design, my current obsessions surround researching and creating historical fashion and costumery and studying small-scale, sustainable architecture. I also love to sing and enjoy learning to play new instruments. My employers, past professors, and peers know me to work efficiently, value constructive criticism, and face any and all challenges with an open mind and eager attitude.</p>
         <?php foreach($about as $aboutinfo): ?>
 			<div class="about-content">
 				<div class="about-info">
-					<?= "aboutme"; ?>
-					<?= "resume"; ?>
+					<div class="resume1">
+						<?= $aboutinfo ['resume1-section1']; ?>
+						<?= $aboutinfo ['resume1-adobe-list']; ?>
+						<?= $aboutinfo ['resume1-list']; ?>
+					</div><!--resume1-->
+					<div class="resume2"><?= $aboutinfo ['resume2']; ?></div>
 				</div>
 			</div>
     	<?php endforeach; ?>
-
     
 </div><!--wrapper-->
 </body> 
