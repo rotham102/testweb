@@ -21,7 +21,8 @@
 		  <a href="about.php">About</a>
 		  <a href="#">Contact</a>
 		</div>
-		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span><br>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span>
+		<span class="nav-badge"><a href="index.php"><img width="50px" src="images/icon.png"></a></span>
 	</div><!--nav-->
 	<div class="nav-afterspace"></div>
 <!--header-->
@@ -42,6 +43,7 @@
 							<?php foreach($adobelist['images'] as $adobeicons): ?>
 								<img src="<?= $adobeicons; ?>">
 							<?php endforeach; ?>
+							<p><?= $webskills ?></p>
 						</div><!--skills-content-->
 					</div><!--skills-->
 					

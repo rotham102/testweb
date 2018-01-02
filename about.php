@@ -14,6 +14,7 @@ $adobelist =[
 		'images/adobe7.png'
 		]
 ];
+$webskills = '<strong>Web Skills:</strong><br/>HTML, CSS, PHP';
 
 $experiencetitle = 'Work Experience';
 $expand = '+';
