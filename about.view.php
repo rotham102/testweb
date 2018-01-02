@@ -35,35 +35,36 @@
 		<div class="about-content">
 			<p>Hello, my name is <span class="about-red">Amanda.</span> I'm a graphic designer and a serial enthusiast. Outside of design, I obsess over historical fashion and costumery and research sustainable, alternative architecture. I also love to sing and I love teaching myself new instruments. My employers, past professors, and peers know me to work efficiently, value constructive criticism, and face any and all challenges with an open mind and eager attitude.</p>
 		</div><!--about-content-->
-			<div class="experience-info">
-					<div class="resume1">
-						<div class="about-blue-box">
-							<p><?= $skillstitle ?></p>
-						</div>
-						<p><?= $adobes ?></p>
-						<?php foreach($adobelist['images'] as $adobeicons): ?>
-							<img src="<?= $adobeicons; ?>">
-						<?php endforeach; ?>
-						<div class="about-blue-box">
-							<p><?= $education ?></p>
-						</div>
+					<div class="skills">
+						<div class="skills-content">
+								<h1><?= $skillstitle ?></h1>
+							<p><?= $adobes ?></p>
+							<?php foreach($adobelist['images'] as $adobeicons): ?>
+								<img src="<?= $adobeicons; ?>">
+							<?php endforeach; ?>
+						</div><!--skills-content-->
+					</div><!--skills-->
+					
+					<div class="experience">
+						<div class="experience-content">
+							<h1><?= $experiencetitle; ?><!--<span class="expand"><?= $expand; ?></span>--></h1>
+							<?php foreach($resume as $section): ?>
+								<div class="work-experience">
+									<p><strong><?= $section['jobtitle']; ?></strong></p>
+									<p><span class="blue-italic"><?= $section['companyname']; ?></span><span class="date-grey">&nbsp; | &nbsp;<?= $section['date']; ?></span></p>
+									<p><span class="jobdesc"><?= $section['jobdesc']; ?></span></p>
+								</div>
+							<?php endforeach; ?>
+						</div><!--experience-content-->
+					</div><!--experience-->
+					
+					<div class="education">
+						<div class="education-content">
+							<h1><?= $education ?></h1>
 							<p><strong>BFA Design | BA Media & Communications</strong><br/>University of Maryland, Baltimore County</p>
-					</div><!--resume1-->
-			</div>	
-			<div class="experience-companies">
-					<div class="resume2">
-						<div class="about-blue-box">
-							<p><?= $experiencetitle; ?></p>
-						</div>
-					<?php foreach($resume as $section): ?>
-						<div class="work-experience">
-							<p><strong><?= $section['jobtitle']; ?></strong></p>
-							<p><span class="blue-italic"><?= $section['companyname']; ?></span><span class="date-grey">&nbsp; | &nbsp;<?= $section['date']; ?></span></p>
-							<p><span class="jobdesc"><?= $section['jobdesc']; ?></span></p>
-						</div>
-					<?php endforeach; ?>
-					</div>
-			</div>
+						</div><!--education-content-->
+					</div><!--education-->	
+					
 </div><!--wrapper-->
 </body> 
 </html>

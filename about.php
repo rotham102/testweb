@@ -1,7 +1,7 @@
 <?php 
 $education = 'Education';
 $skillstitle = 'Skills';
-$adobes = '<p><strong>Adobe CC:</strong><br/>InDesign, Photoshop, Illustrator, Audition, After Effects, Premiere Pro, Experience Design';
+$adobes = '<strong>Adobe CC:</strong><br/>InDesign, Photoshop, Illustrator, Audition, After Effects, Premiere Pro, Experience Design';
 
 $adobelist =[
 	'images' => [
@@ -16,6 +16,7 @@ $adobelist =[
 ];
 
 $experiencetitle = 'Work Experience';
+$expand = '+';
 $resume = [
 	[
 	'jobtitle' => 'Web Production Designer',

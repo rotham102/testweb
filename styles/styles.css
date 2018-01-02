@@ -11,7 +11,16 @@ body{
 	grid-template-columns:repeat(12, 1fr);
 	grid-auto-rows: 100%;
 }
-
+.wrapper{
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+	padding:2em 0em 0em 0em ;
+}
 .nav{
 	grid-column: span 12;
 	text-align: center !important;
@@ -366,58 +375,78 @@ color:white;
 }
 /*----------------------------------ABOUT-----------------------------------*/
 
+.expand{
+	font-size:50px;
+	float:right;
+	padding:2px 6px;
+}
 .about-content{
 	grid-column:span 12;
-	font-size:15px;
-	padding: 3% 7% 3% 7%;
+	padding-top: 0;
 	position:relative;
-	background-color:rgb(0,200,250);
-	color:white;
 }
 .about-red{
 	color:red;
 	font-weight:600;
 }
-.about-content p{
+.about-content{
+	margin:0 auto;
+	display:block;
+	background-color:white;
+	box-shadow: 2px 3px 10px 2px #eaeeef;
+	padding: 2% 5% 2% 5%;
+	max-width:700px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:300;
 	line-height: 25px;
 	font-size:15px;
 }
-
-.experience-info{
-	grid-column:span 4;
-	font-size:15px;
+.skills{
+	grid-column: span 12;
 	position:relative;
-	padding: 0 20px 0 10%;
-	line-height: 25px;
-	font-weight:300;
-	font-family: 'Montserrat', sans-serif;
+	margin-top:10px;
 }
-.experience-companies{
-	grid-column:span 8;
+.skills-content{
+	margin:0 auto;
+	display:block;
+	background-color:rgb(0, 200, 250);
+	box-shadow: 2px 3px 10px 2px #eaeeef;
+	padding: 1% 5% 2% 5%;
+	max-width:700px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	line-height: 25px;
 	font-size:15px;
-	position:relative;
-	padding: 0 10% 0 20px;
-	line-height: 25px;
-	font-weight:300;
-	font-family: 'Montserrat', sans-serif;
+	color:white;
 }
-
-.about-blue-box{
+.skills-content h1{
+	font-weight: 100;
+	color:white;
+}
+.skills-content strong{
 	color:red;
-	font-weight:600;
-	padding:0px;
-}
-.resume1{
-	grid-column: span 6;
-	padding-top:0;
-	padding-bottom:0;
-}
-.resume1 img{
-	max-width:50px;
 }
 
+.experience{
+	grid-column: span 12;
+	position:relative;
+	margin-top:10px;
+}
+.experience-content{
+	margin:0 auto;
+	display:block;
+	background-color:white;
+	box-shadow: 2px 7px 10px 2px #eaeeef;
+	padding: 1% 5% 3% 5%;
+	max-width:700px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	line-height: 25px;
+	font-size:15px;
+}
+.experience-content h1{
+	font-weight: 100;
+}
 .blue-italic{
 	font-style:oblique;
 	color:rgb(0,200,250);
@@ -435,16 +464,26 @@ color:white;
 .jobdesc{
 	font-size:14px;
 }
-@media screen and (max-width: 650px){
-	.about-content{
-		padding: 0 30px 0 30px;
-	}
-	.experience-info{
-		grid-column: span 12;
-		padding: 0 30px 0 30px;
-	}
-	.experience-companies{
-		grid-column: span 12;
-		padding: 0 30px 0 30px;
-	}
+
+.education{
+	grid-column: span 12;
+	position:relative;
+	margin-top:10px;
+}
+.education-content{
+	margin:0 auto;
+	display:block;
+	background-color:rgb(0, 200, 250);
+	box-shadow: 4px 3px 10px 2px #eaeeef;
+	padding: 1% 5% 1% 5%;
+	max-width:700px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	line-height: 25px;
+	font-size:15px;
+	color:white;
+}
+.education-content h1{
+	font-weight: 100;
+	color:white;
 }
