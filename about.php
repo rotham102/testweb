@@ -1,6 +1,6 @@
 <?php 
 $education = 'Education';
-$skillstitle = 'Skills';
+$skillstitle = 'Skills and Proficiencies';
 $adobes = '<strong>Adobe CC:</strong><br/>InDesign, Photoshop, Illustrator, Audition, After Effects, Premiere Pro, Experience Design';
 
 $adobelist =[
@@ -14,7 +14,7 @@ $adobelist =[
 		'images/adobe7.png'
 		]
 ];
-$webskills = '<strong>Web Skills:</strong><br/>HTML, CSS, PHP';
+$webskills = '<strong>Web Skills:</strong><br/>HTML, CSS, PHP, Bootstrap, CSS Grid';
 
 $experiencetitle = 'Work Experience';
 $expand = '+';
@@ -48,6 +48,12 @@ $resume = [
 	'companyname' => 'Mentor Foundation USA',
 	'date' => 'June 2014',
 	'jobdesc' => 'One month Internship with the marketing department of an international non-profit. Assisted with social media outreach, website development, graphic design, video production, and database upkeep.'
+	],
+	[
+	'jobtitle' => 'Freelance Work',
+	'companyname' => 'Branding, Illustration, and Mural Work',
+	'date' => 'Ongoing',
+	'jobdesc' => ''
 	]
 
 ];

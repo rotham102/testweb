@@ -63,7 +63,7 @@
 					<div class="education">
 						<div class="education-content">
 							<h1><?= $education ?></h1>
-							<p><strong>BFA Design | BA Media & Communications</strong><br/>University of Maryland, Baltimore County</p>
+							<p><strong>Bachelor of Fine Arts</strong> &mdash; Design <br/> <strong>Bachelor of Arts</strong> &mdash; Media & Communications</p><p><em>2013 - 2017</em> &mdash; University of Maryland, Baltimore County</p>
 						</div><!--education-content-->
 					</div><!--education-->	
 					

@@ -424,9 +424,10 @@ color:white;
 .skills-content h1{
 	font-weight: 100;
 	color:white;
+	line-height: 1.2em;
 }
 .skills-content strong{
-	color:red;
+	color:rgb(70,70,70);
 }
 
 .experience{
@@ -486,4 +487,10 @@ color:white;
 .education-content h1{
 	font-weight: 100;
 	color:white;
+}
+.education-content strong{
+	color:rgb(70,70,70);
+}
+.education-content em{
+	color:rgb(70,70,70);
 }
