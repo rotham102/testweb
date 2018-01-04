@@ -19,7 +19,7 @@
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <a href="index.php">Home</a>
 		  <a href="about.php">About</a>
-		  <a href="#">Contact</a>
+		  <a href="contact.php">Contact</a>
 		</div>
 		<span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="nav-button" src="images/nav-menu.png"/> <p class="menu">MENU</p> </span>
 		<span class="nav-badge"><a href="index.php"><img width="50px" src="images/icon.png"></a></span>
