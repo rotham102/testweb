@@ -38,9 +38,9 @@ body{
 	height:70px;
 }
 .nav-button{
-	margin-left:15px;
+	margin-left:10px;
 	margin-top:10px;
-	margin-bottom:5px;
+	margin-bottom:10px;
 	width:50px;
 	float:left;
 }
@@ -69,6 +69,7 @@ body{
 			padding-top: 60px;
 			font-family: 'Montserrat', sans-serif;
 			text-align: right;
+			box-shadow: 2px 0px 15px rgba(100,100,100, .3);
 
 		}
 
@@ -537,6 +538,13 @@ color:white;
 }
 textarea{
 	margin-top:2px;
+	resize:none;
+	background-color: rgba(0,200,250,.1);
+    border: none;
+}
+input{
+	background-color: rgba(0,200,250,.1);
+    border: none;
 }
 .email{
 	font-weight:100;
@@ -550,4 +558,9 @@ textarea{
 	font-size:15px;
 	padding: 7px;
 	box-shadow: 1px 1px 2px 1px #e2e2e2;
+}
+@media screen and (max-width: 380px){
+	.contact-content{
+		padding: 20px;
+	}
 }
