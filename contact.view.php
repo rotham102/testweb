@@ -34,28 +34,26 @@
 	</div><!--header-->
 	<div class="contact">
 		<div class="contact-content">
-			<div class="linkedin">
-				<img src="images/linkedin-logo.png">
-				<a href="https://www.linkedin.com/in/amanda-roth-4960ab94/">
-				<button>
-					<p>Check Out My LinkedIn</p>
-				</button>
-				</a>
-			</div><!--linkedin-->
-			<div class="form-area">
-				<p>Send me an email!<br/>
-					<span class="email"><em>to: rotham102@gmail.com</em></span>
-				</p>
-					<form action="mailto:rotham102@gmail.com" method="post" enctype="text/plain" class="contact-form">
-						<p>Name:</p>
-						<input type="text" name="name"><br>
-						<p>E-mail:</p>
-						<input type="text" name="mail"><br>
-						<p>Message:</p>
-						<textarea rows="10" cols="30" type="text" name="comment"></textarea><br><br>
-						<input type="submit" value="Send" class="send">
-					</form>
-			</div><!--form-area-->
+			<p class="for"> &#10132;&nbsp; <em>contact through LinkedIn</em></p>
+				<div class="linkedin">
+					<img src="images/linkedin-logo.png">
+					<a href="https://www.linkedin.com/in/amanda-roth-4960ab94/">
+						<button>
+							<p>View My Profile</p>
+						</button>
+					</a>
+				</div><!--linkedin-->
+					<br/><p class="for"> &#10132;&nbsp; <em>for general inquiries</em></p>
+				<div class="email-area">
+					<img src="images/contact-icon.png">
+					<a href="mailto:rotham102@gmail.com">
+						<button>
+							<p>Send me an email!<br/>
+							<span class="email"><em>to: rotham102@gmail.com</em></span><br/>
+							</p>
+						</button>
+					</a>
+				</div><!--email-area--><br/>
 		</div><!--contact--->
 	</div>	
 					
