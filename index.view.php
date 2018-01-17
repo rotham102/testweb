@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-	<script src="styles/scripts.js"></script>
+	<script src="js/scripts.js"></script>
 
 	<title>Amanda M. Roth</title>
 </head>

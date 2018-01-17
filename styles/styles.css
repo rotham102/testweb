@@ -12,10 +12,10 @@ body{
 	grid-auto-rows: 100%;
 }
 .wrapper{
-  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
-  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
-  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
-  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,.1) 1px, transparent 1px, transparent 100%);
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,0) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,0) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,0) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.1), rgba(0,0,0,0) 1px, transparent 1px, transparent 100%);
   -webkit-background-size: 3px 3px;
   -moz-background-size: 3px 3px;
   background-size: 3px 3px;
@@ -255,7 +255,7 @@ height: auto;
 .work-content p{
 font-size:14px;
 line-height: 25px;
-font-weight:300;
+font-weight:400;
 padding-bottom:20px;
 }
 .work-content p strong{
@@ -403,7 +403,7 @@ color:white;
 	padding: 2% 5% 2% 5%;
 	max-width:800px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	line-height: 25px;
 	font-size:15px;
 }
@@ -419,7 +419,7 @@ color:white;
 	padding: 1% 5% 2% 5%;
 	max-width:800px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	line-height: 25px;
 	font-size:15px;
 	color:white;
@@ -445,7 +445,7 @@ color:white;
 	padding: 1% 5% 3% 5%;
 	max-width:800px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	line-height: 25px;
 	font-size:15px;
 }
@@ -482,7 +482,7 @@ color:white;
 	padding: 1% 5% 1% 5%;
 	max-width:800px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	line-height: 25px;
 	font-size:15px;
 	color:white;
@@ -530,7 +530,7 @@ color:white;
 .for{
 	color:#929292;
 	font-size:.8em;
-	font-weight:100;
+	font-weight:400;
 }
 
 .email-area img{
@@ -550,7 +550,7 @@ color:white;
 	vertical-align: bottom;
 }
 .email{
-	font-weight:100;
+	font-weight:400;
 	color:grey;
 	font-size:13px;
 }

@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-	<script src="styles/scripts.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+<script src="js/scripts.js"></script>
 
 	<title>Amanda M. Roth</title>
 </head>
