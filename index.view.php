@@ -7,6 +7,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 	<script src="js/scripts.js"></script>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.amandaroth.net" />
+	<meta property="og:title" content="Amanda M. Roth" />
+	<meta property="og:image" content="/images/site-thumbnail.jpg" />
+	<meta property="og:description" content="Hi, my name is Amanda Roth. I am a graphic designer with a full scope of experience designing for print and web. Check out my work and learn a bit about me!" /> 
 
 	<title>Amanda M. Roth</title>
 </head>
