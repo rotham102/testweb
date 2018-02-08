@@ -142,6 +142,17 @@ $arr = [
             'images/campus-conquest-logos.jpg'
 		],
 		'video' => []
+    ],
+    [
+        'name' => 'hiv-sex-work',
+        'img' => 'images/hiv-sex-work.jpg',
+        'desc' => 'HIV and Sex Work Awareness Video',
+        'writeup' => 'This was a <strong>motion graphic</strong> project for a class at my university. We had the opportunity to work with a representative of Jpheigo, a non-profit health organization affiliated with The Johns Hopkins University dedicated to improving the health of women and families. We were instructed to research a topic that affects women&#39;s health and create a motion graphic video discussing our topic. I chose to discuss the issue of HIV in the world of sex work, the stigma surrounding it, and the ways in which we could address the issue with proper legalization, regulation, and health care access.',
+		'works' => [
+		],
+		'video' => [
+            '<iframe width="800" height="450" src="https://www.youtube.com/watch?v=0L8MYDUgv7A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
+                ]
     ]
     ];
 
