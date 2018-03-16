@@ -258,8 +258,11 @@ height: auto;
 .work-content p{
 font-size:14px;
 line-height: 25px;
-font-weight:400;
+font-weight:300;
 padding-bottom:20px;
+}
+.work-content p a{
+color:rgb(0,200,250);
 }
 .work-content p strong{
 color:red;

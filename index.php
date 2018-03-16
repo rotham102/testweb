@@ -46,7 +46,7 @@ $arr = [
         'name' => 'playit',
         'img' => 'images/play-it-as-it-lays.jpg',
         'desc' => 'Graduate Thesis Book Design',
-        'writeup' => 'This was an <strong>editorial design</strong> project for the Imaging and Digital Arts graduate students at my university. I worked with William Edward Stitt to typeset his Masters thesis and exhibition art into the book "Play It As It Lays". It was a privilege to design for Stitt and to be able to represent his work in editorial form.',
+        'writeup' => 'This was an <strong>editorial design</strong> project for the <a href="https://imda.umbc.edu/">Imaging and Digital Arts</a> graduate students at my university. I worked with William Edward Stitt to typeset his Masters thesis and exhibition art into the book "Play It As It Lays". It was a privilege to design for Stitt and to be able to represent his work in editorial form.',
         'works' => [
             'images/play-it-as-it-lays.jpg',
             'images/wes-spread.jpg',
@@ -63,6 +63,18 @@ $arr = [
 		'works' => [
 			'images/nightwarden-logo.jpg',
 			'images/nightwarden-aircraft.jpg'
+		],
+		'video' => []
+    ],
+	[
+		'name' => 'hd-mighty-mocha',
+        'img' => 'images/mighty-mocha-all.jpg',
+        'desc' => 'Healthy Directions Mighty Mocha Energy Essentials',
+		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Dr. Whitaker health supplement brand. This was used to advertise the release of a new supplement product called Mighty Mocha Energy Essentials. The brand team needed several different banner types for their web advertising initiative: a small callout banner, a banner to use in their site rotators, and a responsive HTML coded banner for use at the top of their merchandise pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-whit-might-mocha-energy-essentials-banners/1117-whit-cb-mighty-mocha-energy-essentials.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/mighty-mocha-ro.jpg',
+			'images/mighty-mocha-co.jpg',
+			'images/mighty-mocha-cb.jpg',
 		],
 		'video' => []
     ],
@@ -95,16 +107,15 @@ $arr = [
 			'<iframe width="800" height="450" src="https://www.youtube.com/embed/Ug63p3tCxUM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>'
 		]
     ],
-    [
-        'name' => 'tattoo',
-        'img' => 'images/tattoo-cards-front.jpg',
-        'desc' => 'Tattoo ABC Cards',
-        'writeup' => 'This was a <strong>typography</strong> and <strong>illustration</strong> project for a class at my university. We were instructed to choose a topic we were interested in and design a set of 26 definition cards around that topic, with each card starting with one letter of the alphabet. We then needed to divide the cards into different categories using design differences. I chose to divide them based on parts of speech (noun, verb, and adjective). ',
+	[
+		'name' => 'hd-stocking-stuffer',
+        'img' => 'images/stocking-stuffer-all.jpg',
+        'desc' => 'Healthy Directions Stocking Stuffer Sale',
+		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Christmas Stocking Stuffer sale. This was used to advertise the new bundle-deals for their supplement products. I was asked to design an email, a banner for their site rotator, and a responsive HTML banner for their site pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1217-pan-stocking-stuffer/1217-hd-cb-stocking-stuffer.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
 		'works' => [
-			'images/tattoo-cards-front.jpg',
-            'images/tattoo-cards-pair.jpg',
-            'images/tattoo-cards-close.jpg',
-            'images/tattoo-cards-all.jpg'
+			'images/stocking-stuffer-ro.jpg',
+			'images/stocking-stuffer-em.jpg',
+			'images/stocking-stuffer-cb.jpg'
 		],
 		'video' => []
     ],
@@ -117,6 +128,30 @@ $arr = [
 			'images/cookbook.jpg',
             'images/cookbook-chapter.jpg',
             'images/cookbook-page.jpg'
+		],
+		'video' => []
+    ],
+		[
+        'name' => 'hd-employee-fav',
+        'img' => 'images/employee-fav-cb.jpg',
+        'desc' => 'Healthy Directions Employee Favorites Sale Banner',
+        'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Employee Favorites Sale. The brand team needed a responsive HTML banner to use at the top of their site pages to advertise their holiday-themed sale. <br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-pan-em-employee-favorites-sale/1117-hd-cb-employee-favorites.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/employee-fav-cb-solo.jpg',
+			'images/employee-fav-cb.jpg'
+		],
+		'video' => []
+    ],
+	 [
+        'name' => 'tattoo',
+        'img' => 'images/tattoo-cards-front.jpg',
+        'desc' => 'Tattoo ABC Cards',
+        'writeup' => 'This was a <strong>typography</strong> and <strong>illustration</strong> project for a class at my university. We were instructed to choose a topic we were interested in and design a set of 26 definition cards around that topic, with each card starting with one letter of the alphabet. We then needed to divide the cards into different categories using design differences. I chose to divide them based on parts of speech (noun, verb, and adjective). ',
+		'works' => [
+			'images/tattoo-cards-front.jpg',
+            'images/tattoo-cards-pair.jpg',
+            'images/tattoo-cards-close.jpg',
+            'images/tattoo-cards-all.jpg'
 		],
 		'video' => []
     ],
