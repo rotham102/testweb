@@ -156,16 +156,15 @@ $arr = [
 		'video' => []
     ],
     [
-        'name' => 'academic-pamphlet',
-        'img' => 'images/reslife-academic-pamphlet-cover.jpg',
-        'desc' => 'Academic Resources Pamphlet',
-        'writeup' => 'This was an <strong>editorial design</strong> project for the Residential Life office at my university. They needed to redesign their previous Academic Resources guide into a more accessible, condensed, and easily readable version for students. ',
-		'works' => [
-			'images/reslife-academic-pamphlet-cover.jpg',
-            'images/reslife-academic-pamphlet-pg1.jpg',
-            'images/reslife-academic-pamphlet-pg2.jpg'
-		],
-		'video' => []
+        'name' => 'synk',
+        'img' => 'images/synk-logo-pair.jpg',
+        'desc' => 'SYNK Brand',
+        'writeup' => 'This was a <strong>branding</strong> project for a developer working on a program called SYNK. The developer wanted to create a solution for synchronizing music and sound effects when playing Dungeons and Dragons online. This way, the Game Master could send out sound bytes or world music to be experienced simultaneously by his players. He wanted a sleek design with custom typography, and a mountain/adventuring theme to tie into the inspiration of DnD. I designed a logo and a favicon for his site, which is currently under construction.',
+        'works' => [
+            'images/synk-logo-photo.jpg',
+            'images/synk-favicon.jpg'
+        ],
+        'video' => []
     ],
     [
         'name' => 'campus',
@@ -188,7 +187,19 @@ $arr = [
 		'video' => [
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/0L8MYDUgv7A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
                 ]
-    ]
+        ],
+        [
+            'name' => 'academic-pamphlet',
+            'img' => 'images/reslife-academic-pamphlet-cover.jpg',
+            'desc' => 'Academic Resources Pamphlet',
+            'writeup' => 'This was an <strong>editorial design</strong> project for the Residential Life office at my university. They needed to redesign their previous Academic Resources guide into a more accessible, condensed, and easily readable version for students. ',
+            'works' => [
+                'images/reslife-academic-pamphlet-cover.jpg',
+                'images/reslife-academic-pamphlet-pg1.jpg',
+                'images/reslife-academic-pamphlet-pg2.jpg'
+            ],
+            'video' => []
+        ]
     ];
 
 
