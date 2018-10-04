@@ -3,6 +3,41 @@
 $greeting = 'AMANDA M. ROTH';
 
 $arr = [
+	[
+		'name' => 'hd-mighty-mocha',
+        'img' => 'images/mighty-mocha-all.jpg',
+        'desc' => 'Healthy Directions Mighty Mocha Energy Essentials',
+		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Dr. Whitaker health supplement brand. This was used to advertise the release of a new supplement product called Mighty Mocha Energy Essentials. The brand team needed several different banner types for their web advertising initiative: a small callout banner, a banner to use in their site rotators, and a responsive HTML coded banner for use at the top of their merchandise pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-whit-might-mocha-energy-essentials-banners/1117-whit-cb-mighty-mocha-energy-essentials.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/mighty-mocha-ro.jpg',
+			'images/mighty-mocha-co.jpg',
+			'images/mighty-mocha-cb.jpg',
+		],
+		'video' => []
+    ],
+	[
+		'name' => 'hd-stocking-stuffer',
+        'img' => 'images/stocking-stuffer-all.jpg',
+        'desc' => 'Healthy Directions Stocking Stuffer Sale',
+		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Christmas Stocking Stuffer sale. This was used to advertise the new bundle-deals for their supplement products. I was asked to design an email, a banner for their site rotator, and a responsive HTML banner for their site pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1217-pan-stocking-stuffer/1217-hd-cb-stocking-stuffer.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/stocking-stuffer-ro.jpg',
+			'images/stocking-stuffer-em.jpg',
+			'images/stocking-stuffer-cb.jpg'
+		],
+		'video' => []
+    	],
+	[
+        'name' => 'hd-employee-fav',
+        'img' => 'images/employee-fav-cb.jpg',
+        'desc' => 'Healthy Directions Employee Favorites Sale Banner',
+        'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Employee Favorites Sale. The brand team needed a responsive HTML banner to use at the top of their site pages to advertise their holiday-themed sale. <br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-pan-em-employee-favorites-sale/1117-hd-cb-employee-favorites.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/employee-fav-cb-solo.jpg',
+			'images/employee-fav-cb.jpg'
+		],
+		'video' => []
+    ],
     [
         'name' => 'ecoh',
         'img' => 'images/ecoh-cards.jpg',
@@ -139,41 +174,6 @@ $arr = [
 		'works' => [
 			'images/campus-conquest-card.jpg',
             'images/campus-conquest-logos.jpg'
-		],
-		'video' => []
-    ],
-	[
-		'name' => 'hd-mighty-mocha',
-        'img' => 'images/mighty-mocha-all.jpg',
-        'desc' => 'Healthy Directions Mighty Mocha Energy Essentials',
-		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Dr. Whitaker health supplement brand. This was used to advertise the release of a new supplement product called Mighty Mocha Energy Essentials. The brand team needed several different banner types for their web advertising initiative: a small callout banner, a banner to use in their site rotators, and a responsive HTML coded banner for use at the top of their merchandise pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-whit-might-mocha-energy-essentials-banners/1117-whit-cb-mighty-mocha-energy-essentials.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
-		'works' => [
-			'images/mighty-mocha-ro.jpg',
-			'images/mighty-mocha-co.jpg',
-			'images/mighty-mocha-cb.jpg',
-		],
-		'video' => []
-    ],
-	[
-		'name' => 'hd-stocking-stuffer',
-        'img' => 'images/stocking-stuffer-all.jpg',
-        'desc' => 'Healthy Directions Stocking Stuffer Sale',
-		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Christmas Stocking Stuffer sale. This was used to advertise the new bundle-deals for their supplement products. I was asked to design an email, a banner for their site rotator, and a responsive HTML banner for their site pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1217-pan-stocking-stuffer/1217-hd-cb-stocking-stuffer.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
-		'works' => [
-			'images/stocking-stuffer-ro.jpg',
-			'images/stocking-stuffer-em.jpg',
-			'images/stocking-stuffer-cb.jpg'
-		],
-		'video' => []
-    	],
-		[
-        'name' => 'hd-employee-fav',
-        'img' => 'images/employee-fav-cb.jpg',
-        'desc' => 'Healthy Directions Employee Favorites Sale Banner',
-        'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Employee Favorites Sale. The brand team needed a responsive HTML banner to use at the top of their site pages to advertise their holiday-themed sale. <br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-pan-em-employee-favorites-sale/1117-hd-cb-employee-favorites.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
-		'works' => [
-			'images/employee-fav-cb-solo.jpg',
-			'images/employee-fav-cb.jpg'
 		],
 		'video' => []
     ],
