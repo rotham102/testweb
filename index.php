@@ -15,47 +15,7 @@ $arr = [
         ],
 		'video' => []
     ],
-    [
-        'name' => 'rk',
-        'img' => 'images/raymondkinsman-cover.jpg',
-        'desc' => 'Raymond Morton Kinsman',
-        'writeup' => 'This was an <strong>editorial design</strong> project for my family. My grandmother found and transcribed the typewritten journals of my great-great grandfather, Raymond Kinsman. This is a comprehensive record of his life, from his childhood on a ranch in Nebraska to his married life on the east coast. The image on the front cover is an actual photo from his records at his ranch out west.',
-        'works' => [
-            'images/raymondkinsman-cover.jpg',
-            'images/raymond-kinsman-contents.jpg',
-            'images/raymond-kinsman-chapter.jpg',
-            'images/raymond-kinsman-picture.jpg'
-        ],  
-		'video' => []
-    ],
-    [
-        'name' => 'screenprint',
-        'img' => 'images/art370-cards.jpg',
-        'desc' => 'Life-Focus Cards',
-        'writeup' => 'This was a <strong>digital design</strong> and <strong>screenprinting</strong> project for a class at my university. I have a strong personal connection to this project as it communicates what I value most in life: my health, my relationship with my partner, my current and future family, and my work. I used a set pallette of bright colors to tie each card together into a cohesive set. It was a great exercise for symbolism and a fun opportunity to use a graphic, punchy design style.',
-        'works' => [
-            'images/art370-cards.jpg',
-            'images/art370-1.jpg',
-            'images/art370-2.jpg',
-            'images/art370-3.jpg',
-            'images/art370-4.jpg'
-        ], 
-		'video' => []
-    ],
-    [
-        'name' => 'playit',
-        'img' => 'images/play-it-as-it-lays.jpg',
-        'desc' => 'Graduate Thesis Book Design',
-        'writeup' => 'This was an <strong>editorial design</strong> project for the <a href="https://imda.umbc.edu/">Imaging and Digital Arts</a> graduate students at my university. I worked with William Edward Stitt to typeset his Masters thesis and exhibition art into the book "Play It As It Lays". It was a privilege to design for Stitt and to be able to represent his work in editorial form.',
-        'works' => [
-            'images/play-it-as-it-lays.jpg',
-            'images/wes-spread.jpg',
-            'images/wes-chapter.jpg',
-            'images/wes-endnotes.jpg'
-        ],
-		'video' => []
-    ],
-    [
+	[
 		'name' => 'nightwarden',
         'img' => 'images/nightwarden-logo.jpg',
         'desc' => 'Textron Systems Nightwarden',
@@ -67,18 +27,17 @@ $arr = [
 		'video' => []
     ],
 	[
-		'name' => 'hd-mighty-mocha',
-        'img' => 'images/mighty-mocha-all.jpg',
-        'desc' => 'Healthy Directions Mighty Mocha Energy Essentials',
-		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Dr. Whitaker health supplement brand. This was used to advertise the release of a new supplement product called Mighty Mocha Energy Essentials. The brand team needed several different banner types for their web advertising initiative: a small callout banner, a banner to use in their site rotators, and a responsive HTML coded banner for use at the top of their merchandise pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-whit-might-mocha-energy-essentials-banners/1117-whit-cb-mighty-mocha-energy-essentials.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
-		'works' => [
-			'images/mighty-mocha-ro.jpg',
-			'images/mighty-mocha-co.jpg',
-			'images/mighty-mocha-cb.jpg',
-		],
-		'video' => []
+        'name' => 'synk',
+        'img' => 'images/synk-logo-pair.jpg',
+        'desc' => 'SYNK Brand',
+        'writeup' => 'This was a <strong>branding</strong> project for a developer working on a program called SYNK. The developer wanted to create a solution for synchronizing music and sound effects when playing Dungeons and Dragons online. This way, the Game Master could send out sound bytes or world music to be experienced simultaneously by his players. He wanted a sleek design with custom typography, and a mountain/adventuring theme to tie into the inspiration of DnD. I designed a logo and a favicon for his site, which is currently under construction.',
+        'works' => [
+            'images/synk-logo-photo.jpg',
+            'images/synk-favicon.jpg'
+        ],
+        'video' => []
     ],
-    [
+	[
 		'name' => 'helios',
         'img' => 'images/helios-front.jpg',
         'desc' => 'Helios Branding Project',
@@ -95,6 +54,71 @@ $arr = [
 		'video' => []
     ],
     [
+        'name' => 'rk',
+        'img' => 'images/raymondkinsman-cover.jpg',
+        'desc' => 'Raymond Morton Kinsman',
+        'writeup' => 'This was an <strong>editorial design</strong> project for my family. My grandmother found and transcribed the typewritten journals of my great-great grandfather, Raymond Kinsman. This is a comprehensive record of his life, from his childhood on a ranch in Nebraska to his married life on the east coast. The image on the front cover is an actual photo from his records at his ranch out west.',
+        'works' => [
+            'images/raymondkinsman-cover.jpg',
+            'images/raymond-kinsman-contents.jpg',
+            'images/raymond-kinsman-chapter.jpg',
+            'images/raymond-kinsman-picture.jpg'
+        ],  
+		'video' => []
+    ],
+	[
+        'name' => 'playit',
+        'img' => 'images/play-it-as-it-lays.jpg',
+        'desc' => 'Graduate Thesis Book Design',
+        'writeup' => 'This was an <strong>editorial design</strong> project for the <a href="https://imda.umbc.edu/">Imaging and Digital Arts</a> graduate students at my university. I worked with William Edward Stitt to typeset his Masters thesis and exhibition art into the book "Play It As It Lays". It was a privilege to design for Stitt and to be able to represent his work in editorial form.',
+        'works' => [
+            'images/play-it-as-it-lays.jpg',
+            'images/wes-spread.jpg',
+            'images/wes-chapter.jpg',
+            'images/wes-endnotes.jpg'
+        ],
+		'video' => []
+    ],
+	[
+        'name' => 'cookbook',
+        'img' => 'images/cookbook.jpg',
+        'desc' => 'Cookbook Design',
+        'writeup' => 'This was a <strong>layout</strong> and <strong>typography</strong> project for a class at my university. We were instructed to design a cookbook based on a national or regional cuisine of our choosing. We then needed to choose the typefaces, informational layout, size, and binding method for our cookbooks. ',
+		'works' => [
+			'images/cookbook.jpg',
+            'images/cookbook-chapter.jpg',
+            'images/cookbook-page.jpg'
+		],
+		'video' => []
+    ],
+    [
+        'name' => 'screenprint',
+        'img' => 'images/art370-cards.jpg',
+        'desc' => 'Life-Focus Cards',
+        'writeup' => 'This was a <strong>digital design</strong> and <strong>screenprinting</strong> project for a class at my university. I have a strong personal connection to this project as it communicates what I value most in life: my health, my relationship with my partner, my current and future family, and my work. I used a set pallette of bright colors to tie each card together into a cohesive set. It was a great exercise for symbolism and a fun opportunity to use a graphic, punchy design style.',
+        'works' => [
+            'images/art370-cards.jpg',
+            'images/art370-1.jpg',
+            'images/art370-2.jpg',
+            'images/art370-3.jpg',
+            'images/art370-4.jpg'
+        ], 
+		'video' => []
+    ],
+	[
+        'name' => 'tattoo',
+        'img' => 'images/tattoo-cards-front.jpg',
+        'desc' => 'Tattoo ABC Cards',
+        'writeup' => 'This was a <strong>typography</strong> and <strong>illustration</strong> project for a class at my university. We were instructed to choose a topic we were interested in and design a set of 26 definition cards around that topic, with each card starting with one letter of the alphabet. We then needed to divide the cards into different categories using design differences. I chose to divide them based on parts of speech (noun, verb, and adjective). ',
+		'works' => [
+			'images/tattoo-cards-front.jpg',
+            'images/tattoo-cards-pair.jpg',
+            'images/tattoo-cards-close.jpg',
+            'images/tattoo-cards-all.jpg'
+		],
+		'video' => []
+    ],
+	[
 		'name' => 'voice-speaks-volumes',
         'img' => 'images/reslife-voice-volumes-poster.jpg',
         'desc' => 'Voice Speaks Volumes Campaign',
@@ -108,6 +132,29 @@ $arr = [
 		]
     ],
 	[
+        'name' => 'campus',
+        'img' => 'images/campus-conquest-card.jpg',
+        'desc' => 'Campus Conquest',
+        'writeup' => 'This was a <strong>branding</strong> project for the Residential Life office and Resident Student Association at my university. They needed a logo and print advertisement for their upcoming Campus Conquest Event, an outdoor activity day for students. I based the logo design on the university mascot, True Grit, the Chesapeake Bay retriever. The design also features the Resident Student Association logo, which I designed for them previously.',
+		'works' => [
+			'images/campus-conquest-card.jpg',
+            'images/campus-conquest-logos.jpg'
+		],
+		'video' => []
+    ],
+	[
+		'name' => 'hd-mighty-mocha',
+        'img' => 'images/mighty-mocha-all.jpg',
+        'desc' => 'Healthy Directions Mighty Mocha Energy Essentials',
+		'writeup' => 'This was a <strong>digital design</strong> project for Healthy Directions&#8217; Dr. Whitaker health supplement brand. This was used to advertise the release of a new supplement product called Mighty Mocha Energy Essentials. The brand team needed several different banner types for their web advertising initiative: a small callout banner, a banner to use in their site rotators, and a responsive HTML coded banner for use at the top of their merchandise pages.<br/><br/> <b>Responsive HTML Banner:</b><a href="https://github.com/rotham102/healthy-directions-web-portfolio/blob/master/1117-whit-might-mocha-energy-essentials-banners/1117-whit-cb-mighty-mocha-energy-essentials.html" target="_blank" style="cursor: pointer;"><br/>Open Github Repository</a>',
+		'works' => [
+			'images/mighty-mocha-ro.jpg',
+			'images/mighty-mocha-co.jpg',
+			'images/mighty-mocha-cb.jpg',
+		],
+		'video' => []
+    ],
+	[
 		'name' => 'hd-stocking-stuffer',
         'img' => 'images/stocking-stuffer-all.jpg',
         'desc' => 'Healthy Directions Stocking Stuffer Sale',
@@ -118,19 +165,7 @@ $arr = [
 			'images/stocking-stuffer-cb.jpg'
 		],
 		'video' => []
-    ],
-    [
-        'name' => 'cookbook',
-        'img' => 'images/cookbook.jpg',
-        'desc' => 'Cookbook Design',
-        'writeup' => 'This was a <strong>layout</strong> and <strong>typography</strong> project for a class at my university. We were instructed to design a cookbook based on a national or regional cuisine of our choosing. We then needed to choose the typefaces, informational layout, size, and binding method for our cookbooks. ',
-		'works' => [
-			'images/cookbook.jpg',
-            'images/cookbook-chapter.jpg',
-            'images/cookbook-page.jpg'
-		],
-		'video' => []
-    ],
+    	],
 		[
         'name' => 'hd-employee-fav',
         'img' => 'images/employee-fav-cb.jpg',
@@ -139,41 +174,6 @@ $arr = [
 		'works' => [
 			'images/employee-fav-cb-solo.jpg',
 			'images/employee-fav-cb.jpg'
-		],
-		'video' => []
-    ],
-	 [
-        'name' => 'tattoo',
-        'img' => 'images/tattoo-cards-front.jpg',
-        'desc' => 'Tattoo ABC Cards',
-        'writeup' => 'This was a <strong>typography</strong> and <strong>illustration</strong> project for a class at my university. We were instructed to choose a topic we were interested in and design a set of 26 definition cards around that topic, with each card starting with one letter of the alphabet. We then needed to divide the cards into different categories using design differences. I chose to divide them based on parts of speech (noun, verb, and adjective). ',
-		'works' => [
-			'images/tattoo-cards-front.jpg',
-            'images/tattoo-cards-pair.jpg',
-            'images/tattoo-cards-close.jpg',
-            'images/tattoo-cards-all.jpg'
-		],
-		'video' => []
-    ],
-    [
-        'name' => 'synk',
-        'img' => 'images/synk-logo-pair.jpg',
-        'desc' => 'SYNK Brand',
-        'writeup' => 'This was a <strong>branding</strong> project for a developer working on a program called SYNK. The developer wanted to create a solution for synchronizing music and sound effects when playing Dungeons and Dragons online. This way, the Game Master could send out sound bytes or world music to be experienced simultaneously by his players. He wanted a sleek design with custom typography, and a mountain/adventuring theme to tie into the inspiration of DnD. I designed a logo and a favicon for his site, which is currently under construction.',
-        'works' => [
-            'images/synk-logo-photo.jpg',
-            'images/synk-favicon.jpg'
-        ],
-        'video' => []
-    ],
-    [
-        'name' => 'campus',
-        'img' => 'images/campus-conquest-card.jpg',
-        'desc' => 'Campus Conquest',
-        'writeup' => 'This was a <strong>branding</strong> project for the Residential Life office and Resident Student Association at my university. They needed a logo and print advertisement for their upcoming Campus Conquest Event, an outdoor activity day for students. I based the logo design on the university mascot, True Grit, the Chesapeake Bay retriever. The design also features the Resident Student Association logo, which I designed for them previously.',
-		'works' => [
-			'images/campus-conquest-card.jpg',
-            'images/campus-conquest-logos.jpg'
 		],
 		'video' => []
     ],
