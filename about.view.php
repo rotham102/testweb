@@ -39,7 +39,9 @@
 	</div><!--header-->
 
 		<div class="about-content">
-			<p>Hello, my name is <span class="about-red">Amanda.</span> I'm a graphic designer and a serial enthusiast. Outside of design, I obsess over historical fashion and costumery and research sustainable, alternative architecture. I also love to sing and I love teaching myself new instruments. My employers, past professors, and peers know me to work efficiently, value constructive criticism, and face any and all challenges with an open mind and eager attitude.</p>
+			<p>Hello, my name is <span class="about-red">Amanda.</span> I'm a well rounded designer with a strong background in print and digital design, web design, motion graphics, and illustration. So far in my career journey, I've had the chance to work with global brands and collaborate with in-house design and marketing teams.</p>
+
+			<p>I am a serial enthusiast and I love to learn new things. Outside of work, I enjoy researching and creating historical fashion and costumery, and studying small-scale, sustainable architecture. I also love to sing and enjoy learning to play new instruments. My employers, mentors, and peers know me to work efficiently, value constructive criticism, and face any and all challenges with an open mind and eager attitude.</p>
 		</div><!--about-content-->
 					<div class="skills">
 						<div class="skills-content">
