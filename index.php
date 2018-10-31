@@ -3,6 +3,39 @@
 $greeting = 'AMANDA M. ROTH';
 
 $arr = [
+    [
+        'name' => 'jarrow-probiotic-landing-pages',
+        'img' => 'images/jarrow-landing-page-cover.jpg',
+        'desc' => 'Jarrow Probiotics Website Landing Pages',
+        'writeup' => 'This was a <strong>web design</strong> and <strong>front end development</strong> project for Jarrow Formulas&#8217; Probiotics line. I coded this landing page from scratch using HTML5, CSS3, and Javascript. I also created a custom framework and grid system with CSS Grid to ensure site responsiveness on all platforms. This landing page serves as a template for the 12 upcoming landing pages that will feature Jarrow Formulas probiotic products. 
+        <br/><br/> <b>Landing Page & Code:</b><br/><a href="http://amandaroth.net/web-projects/jarrow-landing-page/index.html" target="_blank" >Open Site in New Tab</a><br/><a href="https://github.com/rotham102/jarrow-landing-page" target="_blank" style="cursor: pointer;">Open Github Repository</a> ',
+        'works' => [
+            'images/jarrow-lp-1.jpg',
+            'images/jarrow-lp-2.jpg',
+            'images/jarrow-lp-3.jpg',
+            'images/jarrow-lp-4.jpg',
+            'images/jarrow-lp-5.jpg',
+            'images/jarrow-lp-6.jpg',
+            'images/jarrow-lp-7.jpg',
+            'images/jarrow-lp-8.jpg',
+            'images/jarrow-lp-9.jpg'
+        ],
+        'video' => []
+    ],
+	[
+            'name' => 'jarrow-infographic',
+            'img' => 'images/jarrow-strain-map-display.jpg',
+            'desc' => 'Jarrow Probiotics Infographic and Booklet',
+            'writeup' => 'This was an <strong>information design</strong> and <strong>editorial design</strong> project for Jarrow Formulas&#8217; new Probiotics book. This long-format informational book details the Jarrow Formulas line of probiotic products in order to market to doctors and consumers. I designed an infographic at the beginning of the book to indicate which complex probiotic strains are associated with certain health topics. This offers a quick reference option to readers who prefer a broader overview of how strains relate to the body.<br/><br/>Along with designing the infographic, I also overhauled the rest of the book to modernize the layout, type treatment, and design scheme.',
+            'works' => [
+                'images/jarrow-strain-map.jpg',
+                'images/jarrow-probiotics-booklet-cover.jpg',
+                'images/jarrow-probiotics-booklet-1.jpg',
+				'images/jarrow-probiotics-booklet-2.jpg',
+				'images/jarrow-probiotics-booklet-3.jpg'
+            ],
+            'video' => []
+        ],
 	[
 		'name' => 'hd-mighty-mocha',
         'img' => 'images/mighty-mocha-all.jpg',
@@ -54,7 +87,7 @@ $arr = [
 		'name' => 'nightwarden',
         'img' => 'images/nightwarden-logo.jpg',
         'desc' => 'Textron Systems Nightwarden',
-		'writeup' => 'This was a <strong>branding</strong> project for the Textron Systems - Unmanned Systems marketing department. During my internship at Textron Systems I was given the chance to work on a variety of branding and advertising projects. I designed this logo to celebrate the unveiling of their new unmanned aerial vehicle Nightwarden. I worked with the marketing and manufacturing teams to determine the black color scheme for the aircraft, and I took my inspiration for the logo design from the shapes that form when looking at the aircraft head on.',
+		'writeup' => 'This was a <strong>branding</strong> project for the Textron Systems - Unmanned Systems marketing department. I designed this logo to celebrate the unveiling of their new unmanned aerial vehicle Nightwarden. I worked with the marketing and manufacturing teams to determine the overall look and theme for the aircraft unveiling and decided on a sleek, dark style. I took my inspiration for the logo from the shapes made by the aircraft when looking at it head on.',
 		'works' => [
 			'images/nightwarden-logo.jpg',
 			'images/nightwarden-aircraft.jpg'
@@ -187,19 +220,8 @@ $arr = [
 		'video' => [
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/0L8MYDUgv7A?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'
                 ]
-        ],
-        [
-            'name' => 'academic-pamphlet',
-            'img' => 'images/reslife-academic-pamphlet-cover.jpg',
-            'desc' => 'Academic Resources Pamphlet',
-            'writeup' => 'This was an <strong>editorial design</strong> project for the Residential Life office at my university. They needed to redesign their previous Academic Resources guide into a more accessible, condensed, and easily readable version for students. ',
-            'works' => [
-                'images/reslife-academic-pamphlet-cover.jpg',
-                'images/reslife-academic-pamphlet-pg1.jpg',
-                'images/reslife-academic-pamphlet-pg2.jpg'
-            ],
-            'video' => []
         ]
+        
     ];
 
 

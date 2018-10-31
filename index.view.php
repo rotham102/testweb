@@ -49,6 +49,7 @@
 		</div>
 		<?php endforeach; ?>
 </div>
+<<<<<<< HEAD
 <!--modal-->
 <?php for($i = 0; $i < count($arr); $i++): ?>
 	<?php $item = $arr[$i]; ?>
@@ -86,5 +87,7 @@
 	</div>
 	<?php endfor; ?>
 
+=======
+>>>>>>> parent of 7fe73ed... THERE IS NO HOPE. HOW DO I DO MODALS
 </body>
 </html>
